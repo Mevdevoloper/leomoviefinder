@@ -73,5 +73,6 @@ if AUTO_DELETE == "True":
     AUTO_DELETE = True
 
 
-
+SHORTNER_SITE = environ.get('SHORTNER_SITE', 'shrinkme.io')
+SHORTNER_API = environ.get('SHORTNER_API', '2d88232c9ffee36f0cb8d930cfa2b963958f1e07')
 
